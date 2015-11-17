@@ -15,14 +15,10 @@ public class TestAP {
 	 */
 	public static void main(String[] args) {
 		try{
-		File fileDir = new File("wenben/xiangliang.txt");			 
-		BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(fileDir), "utf-8"));	 
-		String str; 
-		
 		
         List<Double> v1=new ArrayList<Double>();
         v1.add(0.1);
-        v1.add(0.1);        
+        v1.add(0.1);
         List<Double> v2=new ArrayList<Double>();
         v2.add(0.3);
         v2.add(0.1);
@@ -78,7 +74,7 @@ public class TestAP {
 		}catch(Exception e){
 			e.printStackTrace();
 		}
-	
+
 	}
 
 }
