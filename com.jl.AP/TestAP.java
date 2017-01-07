@@ -46,7 +46,7 @@ public class TestAP {
         List<Double> v10=new ArrayList<Double>();
         v10.add(0.6);
         v10.add(0.6);
-        ArrayList al=new ArrayList();
+        ArrayList al=new ArrayList();  //向聚类结果中加入10个点，测试效果
         al.add(v1);
         al.add(v2);
         al.add(v3);
